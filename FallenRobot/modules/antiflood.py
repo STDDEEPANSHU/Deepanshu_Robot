@@ -11,8 +11,8 @@ from FallenRobot.modules.helper_funcs.chat_status import (
     user_admin,
     user_admin_no_reply,
 )
-from FallenRobot.modules.log_channel import loggable
-from FallenRobot.modules.sql import antiflood_sql as sql
+from DeepanshuRobot.modules.log_channel import loggable
+from DeepanshuRobot.modules.sql import antiflood_sql as sql
 from telegram.error import BadRequest
 from telegram.ext import (
     CallbackContext,
@@ -23,10 +23,10 @@ from telegram.ext import (
     run_async,
 )
 from telegram.utils.helpers import mention_html, escape_markdown
-from FallenRobot.modules.helper_funcs.string_handling import extract_time
-from FallenRobot.modules.connection import connected
-from FallenRobot.modules.helper_funcs.alternate import send_message
-from FallenRobot.modules.sql.approve_sql import is_approved
+from DeepanshuRobot.modules.helper_funcs.string_handling import extract_time
+from DeepanshuRobot.modules.connection import connected
+from DeepanshuRobot.modules.helper_funcs.alternate import send_message
+from DeepanshuRobot.modules.sql.approve_sql import is_approved
 
 FLOOD_GROUP = 3
 
