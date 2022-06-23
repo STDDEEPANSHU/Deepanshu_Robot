@@ -1,8 +1,8 @@
-# © @AnonymousBoy1025
+# © @STD-DEEPANSHU
 import aiohttp
 from pyrogram import filters
-from FallenRobot import pbot
-from FallenRobot.pyrogramee.errors import capture_err
+from DeepanshuRobot import pbot
+from DeepanshuRobot.pyrogramee.errors import capture_err
 
 
 __mod_name__ = "Gɪᴛʜᴜʙ"
