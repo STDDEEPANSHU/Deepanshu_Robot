@@ -6,18 +6,18 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, MessageHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-import FallenRobot.modules.sql.blacklist_sql as sql
-from FallenRobot import dispatcher, LOGGER
-from FallenRobot.modules.disable import DisableAbleCommandHandler
-from FallenRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from FallenRobot.modules.helper_funcs.extraction import extract_text
-from FallenRobot.modules.helper_funcs.misc import split_message
-from FallenRobot.modules.log_channel import loggable
-from FallenRobot.modules.warns import warn
-from FallenRobot.modules.helper_funcs.string_handling import extract_time
-from FallenRobot.modules.connection import connected
-from FallenRobot.modules.sql.approve_sql import is_approved
-from FallenRobot.modules.helper_funcs.alternate import send_message, typing_action
+import DeepanshuRobot.modules.sql.blacklist_sql as sql
+from DeepanshuRobot import dispatcher, LOGGER
+from DeepanshuRobot.modules.disable import DisableAbleCommandHandler
+from DeepanshuRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from DeepanshuRobot.modules.helper_funcs.extraction import extract_text
+from DeepanshuRobot.modules.helper_funcs.misc import split_message
+from DeepanshuRobot.modules.log_channel import loggable
+from DeepanshuRobot.modules.warns import warn
+from DeepanshuRobot.modules.helper_funcs.string_handling import extract_time
+from DeepanshuRobot.modules.connection import connected
+from DeepanshuRobot.modules.sql.approve_sql import is_approved
+from DeepanshuRobot.modules.helper_funcs.alternate import send_message, typing_action
 
 BLACKLIST_GROUP = 11
 
