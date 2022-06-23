@@ -3,7 +3,7 @@ import re
 import os
 import html
 import requests
-import FallenRobot.modules.sql.chatbot_sql as sql
+import Deepanshu.modules.sql.chatbot_sql as sql
 
 from time import sleep
 from telegram import ParseMode
@@ -30,10 +30,10 @@ from telegram.ext import (
 from telegram.error import BadRequest, RetryAfter, Unauthorized
 from telegram.utils.helpers import mention_html, mention_markdown, escape_markdown
 
-from FallenRobot.modules.helper_funcs.filters import CustomFilters
-from FallenRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
-from FallenRobot import dispatcher, updater, SUPPORT_CHAT
-from FallenRobot.modules.log_channel import gloggable
+from DeepanshuRobot.modules.helper_funcs.filters import CustomFilters
+from DeepanshuRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
+from DeepanshuRobot import dispatcher, updater, SUPPORT_CHAT
+from DeepanshuRobot.modules.log_channel import gloggable
 
 
 @run_async
@@ -56,7 +56,7 @@ def kukirm(update: Update, context: CallbackContext) -> str:
             )
         else:
             update.effective_message.edit_text(
-                "ꜰᴀʟʟᴇɴ ✘ ʀᴏʙᴏᴛ ᴄʜᴀᴛʙᴏᴛ ᴅɪsᴀʙʟᴇᴅ ʙʏ {}.".format(
+                "ꜱᴛᴅ ✘ ʀᴏʙᴏᴛ ᴄʜᴀᴛʙᴏᴛ ᴅɪsᴀʙʟᴇᴅ ʙʏ {}.".format(
                     mention_html(user.id, user.first_name)
                 ),
                 parse_mode=ParseMode.HTML,
@@ -85,7 +85,7 @@ def kukiadd(update: Update, context: CallbackContext) -> str:
             )
         else:
             update.effective_message.edit_text(
-                "ꜰᴀʟʟᴇɴ ✘ ʀᴏʙᴏᴛ ᴄʜᴀᴛʙᴏᴛ ᴇɴᴀʙʟᴇᴅ ʙʏ {}.".format(
+                "ꜱᴛᴅ ✘ ʀᴏʙᴏᴛ ᴄʜᴀᴛʙᴏᴛ ᴇɴᴀʙʟᴇᴅ ʙʏ {}.".format(
                     mention_html(user.id, user.first_name)
                 ),
                 parse_mode=ParseMode.HTML,
