@@ -1,6 +1,6 @@
-from FallenRobot import telethn as tbot
+from DeepanshuRobot import telethn as tbot
 import os
-from FallenRobot.events import register
+from DeepanshuRobot.events import register
 import secureme
 
 
