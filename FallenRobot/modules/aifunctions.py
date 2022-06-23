@@ -12,7 +12,7 @@ from telethon.tl import functions
 import asyncio, os
 
 
-@register(pattern="Fallen (.*)")
+@register(pattern="Deepanshu (.*)")
 async def hmm(event):
     test = event.pattern_match.group(1)
     r = ('\n    "consent": true,\n    "ip": "::1",\n    "question": "{}"\n').format(
@@ -33,7 +33,7 @@ async def hmm(event):
     lodu = response.json()
     result = lodu["message"]["text"]
     if "no no" in result:
-        pro = "I am fairly found and I was made by @anonymous_was_bot."
+        pro = "I am fairly found and I was made by @STD_DEEPANSHU."
         try:
             async with telethn.action(event.chat_id, "typing"):
                 await asyncio.sleep(2)
@@ -41,7 +41,7 @@ async def hmm(event):
         except CFError as e:
             print(e)
     elif "ann" in result:
-        pro = "My name is 𝚂𝚃𝙳 𝙳𝙴𝙴𝙿𝙰𝙽𝚂𝙷𝚄"
+        pro = "My name is Deepanshu"
         try:
             async with telethn.action(event.chat_id, "typing"):
                 await asyncio.sleep(2)
