@@ -1,16 +1,16 @@
 # Config files, logs and stuff
-STDXRobot/modules/helper_funcs/temp.txt
-STDXRobot/elevated_users.json
-STDXRobot/config.py
-STDXRobot/config.ini
+DeepanshuRobot/modules/helper_funcs/temp.txt
+DeepanshuRobot/elevated_users.json
+DeepanshuRobot/config.py
+DeepanshuRobot/config.ini
 log.txt
 kangsticker.png
 updates.txt
 
 # Session files
-STDXRobot/*.session
-STDXRobot/*.session-journal
-STD.session-journal
+DeepanshuRobot/*.session
+DeepanshuRobot/*.session-journal
+Deepanshu.session-journal
 *.session
 
 # Byte-compiled / optimized / DLL files
