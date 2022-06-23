@@ -10,9 +10,9 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 )
 from pyrogram.types import ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup
 
-from FallenRobot import DRAGONS as SUDO_USERS
-from FallenRobot import pbot
-from FallenRobot.modules.sql import forceSubscribe_sql as sql
+from DeepanshuRobot import DRAGONS as SUDO_USERS
+from DeepanshuRobot import pbot
+from DeepanshuRobot.modules.sql import forceSubscribe_sql as sql
 
 
 logging.basicConfig(level=logging.INFO)
@@ -183,7 +183,7 @@ def config(client, message):
 __help__ = """
   *Force Subscribe:*
 
-  Fallen Robot can mute members who are not subscribed your channel until they subscribe When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
+  Deepanshu Robot can mute members who are not subscribed your channel until they subscribe When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
 
   *Setup* *:* *Only for chat owner*
   ❍ Add me in your group as admin
