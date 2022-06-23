@@ -2,9 +2,9 @@ import sre_constants
 
 import regex
 import telegram
-from FallenRobot import LOGGER, dispatcher
-from FallenRobot.modules.disable import DisableAbleMessageHandler
-from FallenRobot.modules.helper_funcs.regex_helper import infinite_loop_check
+from DeepanshuRobot import LOGGER, dispatcher
+from DeepanshuRobot.modules.disable import DisableAbleMessageHandler
+from DeepanshuRobot.modules.helper_funcs.regex_helper import infinite_loop_check
 from telegram import Update
 from telegram.ext import CallbackContext, Filters, run_async
 
