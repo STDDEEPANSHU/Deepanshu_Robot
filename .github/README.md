@@ -17,7 +17,7 @@
 
 ## ㅤㅤㅤ 🖤「 ꜱᴛᴅ 𒆜 ʀᴏʙᴏᴛ 」🖤
      
-ɪ ᴀᴍ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [💞「 ꜱᴛᴅ 𒆜 ʀᴏʙᴏᴛ 」💞](https://t.me/Abishnoi_ro_bot)
+ɪ ᴀᴍ ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [💞「 ꜱᴛᴅ 𒆜 ʀᴏʙᴏᴛ 」💞](https://t.me/STD_ROBOT)
 ᴛʜɪs ɪs ᴀ ᴅᴇᴍᴏ ʙᴏᴛ <br> ɪ ᴅᴏɴ'ᴛ ᴋɴᴏᴡ нσω ʟᴏɴɢᴇʀ ɪ'ʟʟ вε ʜᴏsᴛɪɴɢ ɪᴛ...
 
 
@@ -31,7 +31,7 @@
 </p>
 
 <p align="center">
-<a href="https://telegram.me/STD_DEEPANSHU"><img src="https://img.shields.io/badge/%20Abishnoi-black.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.me/STD_DEEPANSHU"><img src="https://img.shields.io/badge/%20Deepanshu-black.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 
