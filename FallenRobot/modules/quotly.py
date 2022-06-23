@@ -4,9 +4,9 @@ from traceback import format_exc
 from pyrogram import filters
 from pyrogram.types import Message
 
-from FallenRobot import arq
-from FallenRobot.utils.errors import capture_err
-from FallenRobot import pbot as app
+from DeepanshuRobot import arq
+from DeepanshuRobot.utils.errors import capture_err
+from DeepanshuRobot import pbot as app
 
 
 async def quotify(messages: list):
