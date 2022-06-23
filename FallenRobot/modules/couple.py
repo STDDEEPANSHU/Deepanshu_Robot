@@ -3,8 +3,8 @@ from datetime import datetime
 
 from pyrogram import filters
 
-from FallenRobot import pbot
-from FallenRobot.helper_extra.dbfun import get_couple, save_couple
+from DeepanshuRobot import pbot
+from DeepanshuRobot.helper_extra.dbfun import get_couple, save_couple
 
 # Date and time
 def dt():
@@ -51,7 +51,7 @@ async def couple(_, message):
             c2_mention = (await pbot.get_users(c2_id)).mention
 
             couple_selection_message = f"""**Couple of the day:**
-{c1_mention} + {c2_mention} = 😘
+{c1_mention} + {c2_mention} = 😘 Powered by 「 ꜱᴛᴅ 𒆜 𝙳𝙴𝙴𝙿𝙰𝙽𝚂𝙷𝚄 」
 __New couple of the day may be chosen at 12AM {tomorrow}__"""
             await pbot.send_message(message.chat.id, text=couple_selection_message)
             couple = {"c1_id": c1_id, "c2_id": c2_id}
