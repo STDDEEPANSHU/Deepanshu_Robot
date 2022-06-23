@@ -1,4 +1,4 @@
-# © @AnonymousBoy1025
+# © @STD-DEEPANSHU
 
 __mod_name__ = "Tᴏᴏʟs"
 
