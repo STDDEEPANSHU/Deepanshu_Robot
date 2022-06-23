@@ -31,7 +31,10 @@ from telegram.error import BadRequest, RetryAfter, Unauthorized
 from telegram.utils.helpers import mention_html, mention_markdown, escape_markdown
 
 from DeepanshuRobot.modules.helper_funcs.filters import CustomFilters
-from DeepanshuRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
+from DeepanshuRobot.modules.helper_funcs.chat_status import (
+    user_admin,
+    user_admin_no_reply,
+)
 from DeepanshuRobot import dispatcher, updater, SUPPORT_CHAT
 from DeepanshuRobot.modules.log_channel import gloggable
 
