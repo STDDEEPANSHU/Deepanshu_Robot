@@ -3,14 +3,14 @@ from io import BytesIO
 import random
 from typing import Optional
 
-import FallenRobot.modules.sql.notes_sql as sql
-from FallenRobot import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
-from FallenRobot.modules.disable import DisableAbleCommandHandler
-from FallenRobot.modules.helper_funcs.handlers import MessageHandlerChecker
-from FallenRobot.modules.helper_funcs.chat_status import user_admin, connection_status
-from FallenRobot.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from FallenRobot.modules.helper_funcs.msg_types import get_note_type
-from FallenRobot.modules.helper_funcs.string_handling import (
+import DeepanshuRobot.modules.sql.notes_sql as sql
+from DeepanshuRobot import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
+from DeepanshuRobot.modules.disable import DisableAbleCommandHandler
+from DeepanshuRobot.modules.helper_funcs.handlers import MessageHandlerChecker
+from DeepanshuRobot.modules.helper_funcs.chat_status import user_admin, connection_status
+from DeepanshuRobot.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from DeepanshuRobot.modules.helper_funcs.msg_types import get_note_type
+from DeepanshuRobot.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
 )
 from telegram import (
