@@ -1,7 +1,7 @@
-from FallenRobot import telethn as tbot
+from DeepanshuRobot import telethn as tbot
 import json
 import requests
-from FallenRobot.events import register
+from DeepanshuRobot.events import register
 from telethon import *
 from telethon.tl import functions
 import os
