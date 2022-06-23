@@ -1,4 +1,4 @@
-from FallenRobot import telethn as tbot
+from DeepanshuRobot import telethn as tbot
 import io
 import os
 import time
@@ -9,9 +9,9 @@ from telethon.tl import functions
 from telethon.tl import types
 from telethon.tl.types import *
 
-from FallenRobot import *
+from DeepanshuRobot import *
 
-from FallenRobot.events import register
+from DeepanshuRobot.events import register
 
 
 async def is_register_admin(chat, user):
