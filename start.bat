@@ -1,4 +1,4 @@
 @echo off
-TITLE STD X Robot
+TITLE STD Robot
 :: Enables virtual env mode and then starts STD
-env\scripts\activate.bat && py -m STDXRobot
+env\scripts\activate.bat && py -m STDRobot
