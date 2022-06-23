@@ -4,9 +4,9 @@ import nekos
 import requests
 from PIL import Image
 from telegram import ParseMode
-from FallenRobot import dispatcher, updater
-import FallenRobot.modules.sql.nsfw_sql as sql
-from FallenRobot.modules.log_channel import gloggable
+from DeepanshuRobot import dispatcher, updater
+import DeepanshuRobot.modules.sql.nsfw_sql as sql
+from DeepanshuRobot.modules.log_channel import gloggable
 from telegram import Message, Chat, Update, Bot, MessageEntity
 from telegram.error import BadRequest, RetryAfter, Unauthorized
 from telegram.ext import CommandHandler, run_async, CallbackContext
