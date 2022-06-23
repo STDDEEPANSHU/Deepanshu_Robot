@@ -16,13 +16,13 @@ from DeepanshuRobot import dispatcher
 
 
 edit_time = 5
-""" =======================STD ROBOT====================== """
+""" =======================DEEPANSHU ROBOT====================== """
 file1 = "https://telegra.ph/file/9a85d0a873e2dd80d278d.jpg"
 file2 = "https://telegra.ph/file/9e7815284031452afa9e5.jpg"
 file3 = "https://telegra.ph/file/dcc5e003287f69acea368.jpg"
 file4 = "https://telegra.ph/file/ed1ce7fee94f46b0f671e.jpg"
 file5 = "https://telegra.ph/file/701028ce085ecfa961a36.jpg"
-""" =======================STD ROBOT====================== """
+""" =======================DEEPANSHU ROBOT====================== """
 
 
 @register(pattern="/myinfo")
@@ -71,7 +71,7 @@ async def callback_query_handler(event):
     try:
         boy = event.sender_id
         PRO = await bot.get_entity(boy)
-        LILIE = "POWERED BY 𝝙𝙳𝙴𝙴𝙿𝙰𝙽𝚂𝙷𝚄 \n\n"
+        LILIE = "POWERED BY 𝐃𝙴𝙴𝙿𝙰𝙽𝚂𝙷𝚄 \n\n"
         LILIE += f"FIRST NAME : {PRO.first_name} \n"
         LILIE += f"LAST NAME : {PRO.last_name}\n"
         LILIE += f"YOU BOT : {PRO.bot} \n"
