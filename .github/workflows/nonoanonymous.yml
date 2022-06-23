@@ -1,4 +1,4 @@
-name: Lets Start FallenRobot
+name: Lets Start DeepanshuRobot
 on: push
 jobs:
   build:
@@ -13,9 +13,9 @@ jobs:
       - name: Pull All Updates
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: 'FallenRobot'
+          commit_message: 'DeepanshuRobot'
           commit_options: '--no-verify'
           repository: .
-          commit_user_name: AnonymousBoy1025
-          commit_user_email: 102808014+AnonymousR1025@users.noreply.github.com
-          commit_author: AnonymousBoy1025 <102808014+AnonymousR1025@users.noreply.github.com>
+          commit_user_name: STD-DEEPANSHU 
+          commit_user_email: 102808014+STD_DEEPANSHU@users.noreply.github.com
+          commit_author: AnonymousR1026 <102808014+STD-DEEPANSHU@users.noreply.github.com>
