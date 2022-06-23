@@ -4,9 +4,9 @@ import time
 from pyrogram import filters
 from pyrogram.types import Message
 
-from FallenRobot import pbot
-from FallenRobot.helper_extra.afk_mongo import add_afk, is_afk, remove_afk
-from FallenRobot.__main__ import get_readable_time
+from DeepanshuRobot import pbot
+from DeepanshuRobot.helper_extra.afk_mongo import add_afk, is_afk, remove_afk
+from DeepanshuRobot.__main__ import get_readable_time
 
 AFK_GROUP = 7
 
