@@ -4,15 +4,15 @@ import textwrap
 
 import os
 
-from FallenRobot.events import register
+from DeepanshuRobot.events import register
 
-from FallenRobot import LOGGER, TEMP_DOWNLOAD_DIRECTORY
-
-
-from FallenRobot import telethn as bot
+from DeepanshuRobot import LOGGER, TEMP_DOWNLOAD_DIRECTORY
 
 
-Credit = "AnonymousBoy1025"
+from DeepanshuRobot import telethn as bot
+
+
+Credit = "STD-DEEPANSHU"
 
 
 @register(pattern="^/mmf ?(.*)")
@@ -77,7 +77,7 @@ async def drawText(image_path, text):
 
     else:
 
-        fnt = "./FallenRobot/resources/default.ttf"
+        fnt = "./DeepanshuRobot/resources/default.ttf"
 
     m_font = ImageFont.truetype(fnt, int((70 / 640) * i_width))
 
