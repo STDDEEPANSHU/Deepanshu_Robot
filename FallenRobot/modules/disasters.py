@@ -3,7 +3,7 @@ import json
 import os
 from typing import Optional
 
-from FallenRobot import (
+from DeepanshuRobot import (
     DEV_USERS,
     OWNER_ID,
     DRAGONS,
@@ -13,18 +13,18 @@ from FallenRobot import (
     WOLVES,
     dispatcher,
 )
-from FallenRobot.modules.helper_funcs.chat_status import (
+from DeepanshuRobot.modules.helper_funcs.chat_status import (
     dev_plus,
     sudo_plus,
     whitelist_plus,
 )
-from FallenRobot.modules.helper_funcs.extraction import extract_user
-from FallenRobot.modules.log_channel import gloggable
+from DeepanshuRobot.modules.helper_funcs.extraction import extract_user
+from DeepanshuRobot.modules.log_channel import gloggable
 from telegram import ParseMode, TelegramError, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 from telegram.utils.helpers import mention_html
 
-ELEVATED_USERS_FILE = os.path.join(os.getcwd(), "FallenRobot/elevated_users.json")
+ELEVATED_USERS_FILE = os.path.join(os.getcwd(), "DeepanshuRobot/elevated_users.json")
 
 
 def check_user_id(user_id: int, context: CallbackContext) -> Optional[str]:
