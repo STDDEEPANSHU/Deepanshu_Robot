@@ -1,5 +1,5 @@
-from FallenRobot.events import register
-from FallenRobot import telethn as tbot
+from DeepanshuRobot.events import register
+from DeepanshuRobot import telethn as tbot
 
 TMP_DOWNLOAD_DIRECTORY = "./"
 from telethon import events
@@ -8,7 +8,7 @@ from PIL import Image
 from datetime import datetime
 from telegraph import Telegraph, upload_file, exceptions
 
-Anonymous = "Fallen"
+Anonymous = "Deepanshu"
 telegraph = Telegraph()
 r = telegraph.create_account(short_name=Anonymous)
 auth_url = r["auth_url"]
