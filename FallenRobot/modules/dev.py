@@ -5,10 +5,10 @@ import sys
 from contextlib import suppress
 from time import sleep
 
-import FallenRobot
+import DeepanshuRobot
 
-from FallenRobot import dispatcher
-from FallenRobot.modules.helper_funcs.chat_status import dev_plus
+from DeepanshuRobot import dispatcher
+from DeepanshuRobot.modules.helper_funcs.chat_status import dev_plus
 from telegram import TelegramError, Update
 from telegram.error import Unauthorized
 from telegram.ext import CallbackContext, CommandHandler, run_async
@@ -19,12 +19,12 @@ from telegram.ext import CallbackContext, CommandHandler, run_async
 def allow_groups(update: Update, context: CallbackContext):
     args = context.args
     if not args:
-        update.effective_message.reply_text(f"Current state: {FallenRobot.ALLOW_CHATS}")
+        update.effective_message.reply_text(f"Current state: {DeepanshuRobot.ALLOW_CHATS}")
         return
     if args[0].lower() in ["off", "no"]:
-        FallenRobot.ALLOW_CHATS = True
+        DeepanshuRobot.ALLOW_CHATS = True
     elif args[0].lower() in ["yes", "on"]:
-        FallenRobot.ALLOW_CHATS = False
+        DeepanshuRobot.ALLOW_CHATS = False
     else:
         update.effective_message.reply_text("Format: /lockdown Yes/No or Off/On")
         return
