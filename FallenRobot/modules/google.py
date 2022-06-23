@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 import urllib
-from FallenRobot import telethn as tbot
+from DeepanshuRobot import telethn as tbot
 import glob
 import io
 import os
@@ -21,9 +21,9 @@ from telethon.tl import functions
 from telethon.tl import types
 from telethon.tl.types import *
 
-from FallenRobot import *
+from DeepanshuRobot import *
 
-from FallenRobot.events import register
+from DeepanshuRobot.events import register
 
 opener = urllib.request.build_opener()
 useragent = "Mozilla/5.0 (Linux; Android 11; SM-M017F Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.157 Mobile Safari/537.36"
@@ -268,7 +268,7 @@ async def apk(e):
             + app_link
             + "'>View in Play Store</a>"
         )
-        app_details += "\n\n===> Fallen <==="
+        app_details += "\n\n===> Deepanshu <==="
         await e.reply(app_details, link_preview=True, parse_mode="HTML")
     except IndexError:
         await e.reply("No result found in search. Please enter **Valid app name**")
@@ -284,5 +284,5 @@ __help__ = """
  ❍ /app <appname>*:* Searches for an app in Play Store and returns its details.
  ❍ /reverse: Does a reverse image search of the media which it was replied to.
  ❍ Anonymous <query>*:* Fallen answers the query
-  💡Ex: `Anonymous where is India?`
+  💡Ex: `Deepanshu where is India?`
 """
