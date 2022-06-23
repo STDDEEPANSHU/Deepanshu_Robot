@@ -1,5 +1,5 @@
-from FallenRobot.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
-from FallenRobot import DRAGONS
+from DeepanshuRobot.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
+from DeepanshuRobot import DRAGONS
 from telethon.tl.types import ChannelParticipantsAdmins
 
 
