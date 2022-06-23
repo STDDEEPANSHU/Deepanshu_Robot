@@ -2,8 +2,8 @@ import random
 import threading
 from typing import Union
 
-from FallenRobot.modules.helper_funcs.msg_types import Types
-from FallenRobot.modules.sql import BASE, SESSION
+from DeepanshuRobot.modules.helper_funcs.msg_types import Types
+from DeepanshuRobot.modules.sql import BASE, SESSION
 from sqlalchemy import BigInteger, Boolean, Column, Integer, String, UnicodeText
 
 DEFAULT_WELCOME = "Hey {first}, how are you?"
