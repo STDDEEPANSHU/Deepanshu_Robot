@@ -1,6 +1,6 @@
 from pyrogram import filters
 
-from FallenRobot import pbot
+from DeepanshuRobot import pbot
 
 
 @pbot.on_message(filters.command("write"))
@@ -17,7 +17,7 @@ async def handwriting(_, message):
     await m.edit("» ᴜᴩʟᴏᴀᴅɪɴɢ...")
     await pbot.send_chat_action(message.chat.id, "upload_photo")
     await message.reply_photo(
-        hand, caption="ᴡʀɪᴛᴛᴇɴ ᴡɪᴛʜ 🖊 ʙʏ [ғᴀʟʟᴇɴ](t.me/FallenXRobot)"
+        hand, caption="ᴡʀɪᴛᴛᴇɴ ᴡɪᴛʜ 🖊 ʙʏ [𝚂𝚃𝙳 𝙳𝙴𝙴𝙿𝙰𝙽𝚂𝙷𝚄](t.me/STD_ROBOT)"
     )
 
 
