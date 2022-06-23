@@ -1,4 +1,4 @@
-from FallenRobot.modules.sql_extended.night_mode_sql import (
+from DeepanshuRobot.modules.sql_extended.night_mode_sql import (
     add_nightmode,
     rmnightmode,
     get_all_chat_id,
@@ -8,8 +8,8 @@ from telethon.tl.types import ChatBannedRights
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from telethon import functions
 from telethon import types
-from FallenRobot.events import register
-from FallenRobot import telethn as tbot
+from DeepanshuRobot.events import register
+from DeepanshuRobot import telethn as tbot
 import os
 
 
@@ -135,7 +135,7 @@ async def job_open():
         try:
             await tbot.send_message(
                 int(warner.chat_id),
-                "06:00 Am, Group Is Opening.\n**Powered By Fallen Robot**",
+                "06:00 Am, Group Is Opening.\n**Powered By STD Robot**",
             )
             await tbot(
                 functions.messages.EditChatDefaultBannedRightsRequest(
