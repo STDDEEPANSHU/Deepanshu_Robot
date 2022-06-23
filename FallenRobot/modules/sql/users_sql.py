@@ -1,7 +1,7 @@
 import threading
 
-from FallenRobot import dispatcher
-from FallenRobot.modules.sql import BASE, SESSION
+from DeepanshuRobot import dispatcher
+from DeepanshuRobot.modules.sql import BASE, SESSION
 from sqlalchemy import (
     Column,
     ForeignKey,
