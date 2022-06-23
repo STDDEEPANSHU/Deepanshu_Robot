@@ -5,8 +5,8 @@ from telethon.utils import get_input_location
 import flag
 import html, os
 from countryinfo import CountryInfo
-from FallenRobot import telethn as borg
-from FallenRobot.events import register
+from DeepanshuRobot import telethn as borg
+from DeepanshuRobot.events import register
 
 
 @register(pattern="^/country (.*)")
@@ -101,7 +101,7 @@ Time Zones:- {tom}
 Top Level Domain:- {lanester}
 wikipedia:- {wiki}</b>
 
-Gathered By [FALLEN](t.me/anonymous_was_bot)</b>
+Gathered By [「 ꜱᴛᴅ 𒆜 ʀᴏʙᴏᴛ 」](t.me/STD_DEEPANSHU)</b>
 """
 
     await borg.send_message(
